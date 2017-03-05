@@ -13,7 +13,7 @@ file(GLOB LIB_SOURCES "src/*.c")
 # first project (static lib)
 #
 project (mymodule)
-# to build static library target with name libmtmodule.a
+# to build static library target with name libmtmodule.so
 add_library(${CMAKE_PROJECT_NAME} STATIC ${LIB_SOURCES})
 
 # to install library headers
