@@ -31,7 +31,7 @@ install(TARGETS ${CMAKE_PROJECT_NAME} DESTINATION /usr/local/lib)
 project(a.out)
 add_executable(${CMAKE_PROJECT_NAME} "tests/main.c" ${LIB_SOURCES})
 set_property(TARGET ${CMAKE_PROJECT_NAME} PROPERTY C_STANDARD 99)
-target_link_libraries(${CMAKE_PROJECT_NAME} libcheck.a)
+target_link_libraries(${CMAKE_PROJECT_NAME} libcheck.so)
 
 #
 # Create make test
