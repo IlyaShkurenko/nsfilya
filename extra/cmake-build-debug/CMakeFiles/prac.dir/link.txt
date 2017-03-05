@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/cc  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/prac.dir/main.c.o  -o prac /usr/local/lib/libextramodule.dylib /usr/local/Cellar/check/0.11.0/lib/libcheck.dylib 

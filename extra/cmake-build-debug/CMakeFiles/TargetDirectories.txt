@@ -1,3 +1,0 @@
-/Users/illiashkurenko/CLionProjects/prac/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/illiashkurenko/CLionProjects/prac/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/illiashkurenko/CLionProjects/prac/cmake-build-debug/CMakeFiles/prac.dir
