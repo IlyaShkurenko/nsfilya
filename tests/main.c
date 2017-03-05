@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <check.h>
-#include <List.h>
-#include <Teacher.h>
-#include <Support.h>
+#include "library.h"
 
 START_TEST (check_equals_List_from_CVS_string)
     {
