@@ -156,6 +156,5 @@ int main() {
     int num_tests_failed = srunner_ntests_failed(sr);
     srunner_free(sr);
     return num_tests_failed;
-    file_process();
     return EXIT_SUCCESS;
 }
