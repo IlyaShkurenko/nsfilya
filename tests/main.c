@@ -155,6 +155,5 @@ int main() {
 
     int num_tests_failed = srunner_ntests_failed(sr);
     srunner_free(sr);
-    return num_tests_failed;
     return EXIT_SUCCESS;
 }

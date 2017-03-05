@@ -13,7 +13,7 @@ file(GLOB LIB_SOURCES "src/*.c")
 # first project (static lib)
 #
 project (mymodule)
-# to build static library target with name libmtmodule.so
+# to build static library target with name libmtmodule.a
 add_library(${CMAKE_PROJECT_NAME} STATIC ${LIB_SOURCES})
 
 # to install library headers
@@ -30,7 +30,7 @@ install(TARGETS ${CMAKE_PROJECT_NAME} DESTINATION /usr/local/lib)
 #
 project(a.out)
 add_executable(${CMAKE_PROJECT_NAME} "tests/main.c" ${LIB_SOURCES})
-set_property(TARGET ${CMAKE_PROJECT_NAME} PROPERTY C_STANDARD 11)
+set_property(TARGET ${CMAKE_PROJECT_NAME} PROPERTY C_STANDARD 99)
 target_link_libraries(${CMAKE_PROJECT_NAME} libcheck.so)
 
 #
@@ -44,4 +44,4 @@ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/scripts/cmake)
 include(CodeCoverage)
 setup_target_for_coverage(${CMAKE_PROJECT_NAME}_coverage ${CMAKE_PROJECT_NAME} coverage)
 SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
-SET(CMAKE_C_FLAGS "-std=c11 -g -O0 -fprofile-arcs -ftest-coverage")
+SET(CMAKE_C_FLAGS "-std=c99 -g -O0 -fprofile-arcs -ftest-coverage")
