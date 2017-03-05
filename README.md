@@ -1,6 +1,6 @@
 # Travis-CI Sample Project (C + CMake)
 
-[![Build Status](https://travis-ci.org/PublicHadyniak/travis-ci-sample.svg?branch=master)](https://travis-ci.org/PublicHadyniak/travis-ci-sample) [![codecov-badge](https://codecov.io/gh/PublicHadyniak/Travis-ci-sample/branch/master/graph/badge.svg)](https://codecov.io/gh/PublicHadyniak/travis-ci-sample)
+#[![Build Status](https://travis-ci.org/PublicHadyniak/travis-ci-sample.svg?branch=master)](https://travis-ci.org/PublicHadyniak/travis-ci-sample) [![codecov-badge](https://codecov.io/gh/IlyaShkurenko/nsfilya/branch/master/graph/badge.svg)](https://codecov.io/gh/PublicHadyniak/travis-ci-sample)
 
 1. Add [`CodeCoverage.cmake`](https://github.com/bilke/cmake-modules/blob/master/CodeCoverage.cmake) file to `scripts/cmake/` project directory
 1. Enable testing and add test coverage config to `CMakeLists.txt` 
