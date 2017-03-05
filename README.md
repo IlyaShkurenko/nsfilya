@@ -20,4 +20,5 @@
 	SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
 	SET(CMAKE_C_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
 	```
-1. Coverage badge link: `https://codecov.io/gh/IlyaShkurenko/nsfilya/branch/master`
+1. Coverage badge link: `https://codecov.io/gh/IlyaShkurenko/nsfilya/branch/master/graph/badge.svg`
+
