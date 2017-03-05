@@ -1,7 +1,7 @@
 {
   "sudo": "required",
   "language": "c",
-  "os": "linux",
+  "os": "osx»,
   "before_install": [
     
     "sudo apt-get install check lcov"
